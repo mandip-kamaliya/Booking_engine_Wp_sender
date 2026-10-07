@@ -1,0 +1,8 @@
+[
+  {"id":"alibaug","name":"Entartica Alibaug","aliases":["alibaug","alibag"],"sender":null,"template":"booking_confirmation_inclusions","language":"en","approved":false},
+  {"id":"coimbatore","name":"Entartica Sea World Coimbatore","aliases":["coimbatore"],"sender":"917948502808","template":"booking_confirmed_coimbtore","language":"en","credentialKey":"COIMBATORE","approved":false},
+  {"id":"saraighat","name":"Spreewalk Saraighat","aliases":["saraighat"],"sender":"917948502807","template":"booking_confirmation_inclusions","language":"en","approved":false},
+  {"id":"prayagraj","name":"Entartica Sea World - Prayagraj","aliases":["prayagraj","allahabad"],"sender":"917948502806","template":"booking_confirmed_prayagraj","language":"en","credentialKey":"PRAYAGRAJ","approved":false},
+  {"id":"rajsamand","name":"Entartica SeaWorld - Rajsamand","aliases":["rajsamand"],"sender":"917948502805","template":"booking_confirmed_raipur","language":"en","credentialKey":"RAJSAMAND","approved":true},
+  {"id":"raipur","name":"Entartica Sea World Raipur","aliases":["raipur"],"sender":"917948502804","template":"booking_confirmed_raipur","language":"en","credentialKey":"RAIPUR","approved":false}
+]

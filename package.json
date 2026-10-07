@@ -1,0 +1,6 @@
+{
+  "name": "entartica-email-whatsapp", "version": "0.1.0", "private": true,
+  "type": "module", "engines": {"node": ">=22.13"},
+  "scripts": {"test": "node --test", "callback": "node --env-file=.env src/callback.js", "check:mail": "node --env-file=.env src/check-mail.js", "check:recent": "node --env-file=.env src/check-recent.js", "diagnose:latest": "node --env-file=.env src/diagnose-latest.js", "hosted": "node src/hosted.js", "preview": "node src/cli.js preview", "resend": "node --env-file=.env src/resend.js", "start": "node --env-file=.env src/cli.js watch", "status": "node src/cli.js status"},
+  "dependencies": {"cheerio": "^1.1.2", "imapflow": "^1.0.195", "mailparser": "^3.7.4"}
+}

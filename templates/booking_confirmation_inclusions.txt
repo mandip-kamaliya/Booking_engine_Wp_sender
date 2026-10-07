@@ -1,0 +1,15 @@
+Suggested utility template name: booking_confirmation_inclusions
+Language: en
+Submit separately for each applicable WABA and enable approved=true only after approval.
+
+Hi {{1}}, your booking at {{2}} is confirmed!
+Booking ID: #{{3}}
+Ride details: {{4}}
+Amount paid: {{5}}
+Time & address: {{6}}
+Inclusions: {{7}}
+Please check your confirmation email for full details.
+
+Parameter order: customer name, branch name, booking ID, all ride rows including
+guest counts and visit dates, amount paid, footer time/address, all nonempty inclusions.
+Do not change this order without updating src/booking.js.
